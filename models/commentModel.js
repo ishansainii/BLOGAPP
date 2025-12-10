@@ -1,8 +1,6 @@
 //import mongoose
 const mongoose = require("mongoose");
 
- 
-
 // route handlers
 const commentSchema =  new mongoose.Schema({
     post:{
@@ -17,9 +15,7 @@ const commentSchema =  new mongoose.Schema({
         type:String,
         required: true,
     }
-
 });
-
 
 // export
 module.exports = mongoose.model("Comment", commentSchema)

@@ -39,7 +39,7 @@ exports.likePost = async (req, res) => {
 exports.unlikePost = async (req, res) => {
     try{
         //fetch data from req body
-        const {post, like} = req.body;
+        const {post, like} = req.body; 
     
 
         // find the post by id and delete
